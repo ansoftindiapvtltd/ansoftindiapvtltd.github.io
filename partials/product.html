@@ -1,0 +1,25 @@
+﻿<div class="highlight">
+  <div id="serListWrapper">
+        <form role="form">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search here..."
+                    ng-model="searchStr">
+            </div>
+        </form>
+        <ul class="list-unstyled highlight">
+            <li class="sev" ng-repeat="product in products | filter:searchStr"
+                style="background: url('imgs/{{product.imgUrl}}') no-repeat">
+                <div class="home-details clearfix">
+                    <h3>{{product.name}}</h3>
+                    <i class="icon-gear icon-md icon-color1"></i>
+                    <p>
+                        {{product.details}}  
+                    </p>
+                    <a>
+                      <a ng-click="seeMore(product)">See More</a>   {{product.description}} 
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

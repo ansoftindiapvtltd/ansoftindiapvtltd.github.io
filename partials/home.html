@@ -1,0 +1,18 @@
+﻿<div id="HomeWrapper" class="container">
+    <div class="highlight">
+        <div id="serListWrapper">
+            <ul class="list-unstyled highlight">
+                <li class="sev" ng-repeat="home in homes | filter:searchStr"
+                    style="background: url('imgs/{{home.imgUrl}}') no-repeat">
+                    <div class="home-details clearfix">
+                        <h3>{{home.name}}</h3>
+                        <i class="icon-gear icon-md icon-color1"></i>
+                        <p>
+                            {{home.details}}
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

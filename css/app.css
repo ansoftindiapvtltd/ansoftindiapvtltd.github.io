@@ -1,0 +1,148 @@
+#headerWrapper {
+    width: 100%;
+	height: 3px;
+}
+
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+.logo {
+    padding: 10px;
+    margin-right: 10x;
+    font-size: 35px;
+    font-family: fantasy;
+}
+
+.tagline {
+    font-size: 10px;
+    margin-top: 50px;
+    margin-left: -160px;
+    font-family: monospace;
+}
+
+.nav-wrapper {
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+#bookListWrapper {
+	width: 100%;
+	padding: 10px;
+}
+
+#bookListWrapper input {
+	width: 25%;
+}
+
+#bookListWrapper .book {
+	border: 1px solid gray;
+	padding: 10px;
+	margin-bottom: 10px;	
+	position: relative;
+}
+
+#bookListWrapper .book .book-details {
+	margin-left: 160px;
+}
+
+.container.ng-enter {
+	-webkit-transition:0.5s linear all;
+	 -moz-transition:0.5s linear all;
+	 -o-transition:0.5s linear all;
+	 transition:0.5s linear all;
+	 opacity:0;
+}
+
+.container.ng-enter-active {
+	 opacity:1;
+}
+
+.book.ng-leave {
+	-webkit-transition:0.5s linear all;
+	 -moz-transition:0.5s linear all;
+	 -o-transition:0.5s linear all;
+	 transition:0.5s linear all;
+	 opacity:1;
+	 left: 0;
+}
+
+.book.ng-leave-active {
+	opacity:0;
+	left: 600px;
+}
+
+.book.ng-enter {
+	-webkit-transition:0.5s linear all;
+	 -moz-transition:0.5s linear all;
+	 -o-transition:0.5s linear all;
+	 transition:0.5s linear all;
+	 opacity:0;
+	 left: 600px;
+}
+
+.book.ng-enter-active {
+	opacity:1;
+	left: 0;
+}
+
+
+#serListWrapper {
+	width: 100%;
+	padding: 10px;
+}
+
+#serListWrapper input {
+	width: 25%;
+}
+
+#serListWrapper .sev {
+	border: 1px solid gray;
+    border-color:#f2f2f2;
+	padding: 10px;
+	margin-bottom: 5px;	
+	position: static;
+}
+
+#serListWrapper .sev .service-details {
+	margin-left: 70px;
+    margin-top: 0px;
+}
+
+
+#serListWrapper .sev .home-details {
+	margin-left: 160px;
+    margin-top: 0px;
+}
+
+.highlight {
+    padding: 0px;
+    margin-bottom: 0px;
+    background-color: #f2f2f2;
+    border: 1px solid thin;
+    border-radius: 1px;
+}
+
+.an-navbar-default {
+    background-color:  #f2f2f2;
+    border-color: #f2f2f2;
+    
+}
+
+.liveChat li.chtSP {
+    background-position: -72px center;
+    left: 0;
+}
+
+.back-color {
+     background-color: #f2f2f2;
+     color: black;
+}
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 40%;
+      margin: auto;
+  }

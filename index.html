@@ -1,0 +1,155 @@
+﻿<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>AN Soft India</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="lib/angular.js"></script>
+    <script src="lib/angular-route.js"></script>
+    <script src="lib/angular-animate.js"></script>
+    <script src="aap.js"></script>
+</head>
+<body class="container back-color">
+    <div id="headerWrapper antheam" ng-controller="HeaderCtrl">
+        <nav class="navbar navbar-default an-navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+
+                <div class="navbar-header">
+                
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a href="#/home"> 
+                        <img src="img/Logo.png" />
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li ng-class="{active: nav.isActive('/home')}"><a href="#/home">Company</a></li>
+                        <li ng-class="{active: nav.isActive('/services')}"><a href="#/services">Services</a></li>
+                        <li ng-class="{active: nav.isActive('/technologies')}"><a href="#/technologies">Technologies</a></li>
+                        <li ng-class="{active: nav.isActive('/itstaffing')}"><a href="#/itstaffing">IT Staffing</a></li>
+                        <li ng-class="{active: nav.isActive('/product')}"><a href="#/product">Products</a></li>
+                        <li ng-class="{active: nav.isActive('/contact')}"><a href="#/contact">Contact-us</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <a href="https://www.linkedin.com/in/thean-soft-703b36116">
+                            <img src="img/linkedin.png" alt="LinkedIn" width="20" height="20"></a>
+                        <a href="https://www.linkedin.com/in/thean-soft-703b36116">
+                            <img src="img/facebook.png" alt="LinkedIn" width="20" height="20"></a>
+                        <a href="https://www.linkedin.com/in/thean-soft-703b36116">
+                            <img src="img/googleplus.png" alt="LinkedIn" width="20" height="20"></a>
+                        <a href="https://www.linkedin.com/in/thean-soft-703b36116">
+                            <img src="img/twitter.png" alt="LinkedIn" width="20" height="20"></a>
+                        <a href="https://www.linkedin.com/in/thean-soft-703b36116">
+                            <img src="img/skype.png" data-toggle="tooltip" title="ashutoshsoni" alt="LinkedIn" width="20" height="20"></a>
+                        <a href="https://www.linkedin.com/in/thean-soft-703b36116">
+                            <img src="img/msn.png" data-toggle="tooltip" title="ashutoshsoni" alt="LinkedIn" width="20" height="20"></a>
+                        <a href="https://www.linkedin.com/in/thean-soft-703b36116">
+                            <img src="img/aol.png" data-toggle="tooltip" title="ashutoshsoni" alt="LinkedIn" width="20" height="20"></a>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </div>
+
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="img/1.jpg" alt="ApplicationPage">
+                </div>
+                <div class="item">
+                    <img src="img/2.jpg" alt="GrowBusiness">
+                </div>
+                <div class="item">
+                    <img src="img/3.jpg" alt="MobileApplication">
+                </div>
+                <div class="item">
+                    <img src="img/4.jpg" alt="ItService">
+                </div>
+                <div class="item">
+                    <img src="img/5.jpg" alt="BuyingSoftware">
+                </div>
+            </div>
+           
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    <div ng-view class=""></div>
+
+
+    <footer class="container  footer back-color">
+        <div class="text-center">
+            <div class="footer-links">
+                <ul class="list-inline text-legal">
+                    <li>
+                        <a href="#/home"><strong class="text">Terms of Use</strong></a>
+                    </li>
+                    <li>
+                        <a href="#/home"><strong class="text">Privacy Policy</strong></a>
+                    </li>
+                    <li ng-class="{active: nav.isActive('/contact')}">
+                        <a href="#/contact">
+                            <strong class="text">Contact Us</strong>
+                        </a>
+                    </li>
+                </ul>
+
+                <p class="container text-muted">
+                    Clients : USA, Canada, UK, Belgium, Denmark, Italy, Spain, UAE, Saudi Arabia, Egypt, Kuwait, South Africa, Thailand, India, Sri Lanka, Malaysia, Singapore, China, Japan, Korea, Hong Kong, Germany, France, Netherlands, Taiwan, Australia, New Zealand..
+                </p>
+
+                <div class="footer-copyright-text ng-scope">
+                    <span>© 1995-2016</span>
+                    <span>The AN Soft® Groups  : - The AN Soft® India Pvt. Ltd. | The AN Soft® Consulting Inc| The AN Soft® US LLC | The AN Soft® UK LLC . </span>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+</body>
+</html>

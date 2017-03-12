@@ -1,0 +1,23 @@
+﻿<div class="highlight">
+  <div id="serListWrapper">
+        <form role="form">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search here..."
+                    ng-model="searchStr">
+            </div>
+        </form>
+        <ul class="list-unstyled highlight">
+            <li class="sev" ng-repeat="itstaf in itstaffings | filter:searchStr"
+                style="background: url('imgs/{{itstaf.imgUrl}}') no-repeat">
+                <div class="home-details clearfix">
+                    <h3>{{itstaf.name}}</h3>
+                    <i class="icon-gear icon-md icon-color1"></i>
+                    <p>
+                        {{itstaf.details}}  
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
