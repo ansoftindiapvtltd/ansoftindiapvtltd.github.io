@@ -278,19 +278,19 @@ myApp.controller("ContactCtrl", function ($scope) {
 		{
 		    imgUrl: "..//img//asp.jpg",
 		    name: "USA",
-		    description: 'AN Soft LCC. 2951 MILLBROOK WOODS DR RALEIGH, NC 27604-2967 USA',
+		    description: 'AN Soft LCC.',
 		    details: "Email: ansoftindiapvtltd@gmail.com"
 		},
         {
             imgUrl: "..//img//asp.jpg",
             name: "INDIA-MUMBAI",
-            description: 'AN Soft India Pvt. Ltd. Silver Sarita, Mira Bhaynader Road Mumbai MH 401107, +91-9320086778',
+            description: 'AN Soft India Pvt. Ltd.',
             details: "Email: ansoftindiapvtltd@gmail.com"
         },
         {
             imgUrl: "..//img//asp.jpg",
             name: "INDIA-DELHI",
-            description: 'AN Soft India Pvt. Ltd. SF-4 Plot no 111 SEC-4 VAISHALI GHAZIABAD, +91-9320086778',
+            description: 'AN Soft India Pvt. Ltd.',
             details: "Email: ansoftindiapvtltd@gmail.com"
         },
     ];
