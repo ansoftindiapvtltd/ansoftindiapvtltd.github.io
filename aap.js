@@ -277,7 +277,7 @@ myApp.controller("ContactCtrl", function ($scope) {
     $scope.contacts = [
 		{
 		    imgUrl: "..//img//asp.jpg",
-		    name: "USA",
+		    name: "USA-A",
 		    description: 'AN Soft LCC.',
 		    details: "Email: ansoftindiapvtltd@gmail.com"
 		},
