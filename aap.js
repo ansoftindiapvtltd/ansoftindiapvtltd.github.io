@@ -258,6 +258,12 @@ myApp.controller("ProductCtrl", function ($scope) {
             name: "comming soon Yoga Online Yoga/Mudra Training Key To Better Health & New Life",
             description: 'http://keytobetterhealth.tk',
             details: "He is expert in Yogic Science. He teaches yoga to his disciples in Mangalore. Popularly Known as Yogaratna Gopalakrishna Delampady.Popularly known as Yogaratna Delampady,he has succeeded in conducting free yogasana training camps to improve the health of more than sixty thousand (60,000) people in and around Mangalore. He has made people realize the significance of yoga and has taught them effectively. He can perform more than 120 Asanas and he can explain the benefits of all the Asanas and he follows this style anywhere he goes and performs the same.In return to his selfless service in the form of teaching Yogasanas to protect the health of the people, their support and co-operation are the most priceable rewards from them."
+        },
+		{
+            imgUrl: "..//img//product-msc1.jpg",
+            name: "mysoftclick is an online learning platform and aimed at professional adults,students take courses largely as a means of improving job-related skills.",
+            description: 'http://mysoftclick.ml or https://mysoftclick.github.io/',
+            details: "My soft click delves into a wide array of technologies and technology domains with a view to cater to the requirements emerging from every sector of this dynamic IT industry. MSC has nurtured and whetted the skills of its experts to sculpt them into strategic technology consultants who render pivotal advice that goes a long way in turning the tide of business in your favour."
         }
     ];
 
