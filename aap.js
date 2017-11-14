@@ -264,6 +264,12 @@ myApp.controller("ProductCtrl", function ($scope) {
             name: "mysoftclick is an online learning platform and aimed at professional adults,students take courses largely as a means of improving job-related skills.",
             description: 'http://mysoftclick.ml or https://mysoftclick.github.io/',
             details: "My soft click delves into a wide array of technologies and technology domains with a view to cater to the requirements emerging from every sector of this dynamic IT industry. MSC has nurtured and whetted the skills of its experts to sculpt them into strategic technology consultants who render pivotal advice that goes a long way in turning the tide of business in your favour."
+        },
+		{
+            imgUrl: "..//img//product-msc1.jpg",
+            name: "Resume Blogger * Job Position * Resume-Now",
+            description: 'http://soniashu.blogspot.com/p/profile_27.html?view=sidebar',
+            details: "We support Blogger for resume with objective, responsibilities and experience that will guide you to write an optimized resume for your job application. it helps to show case your talent in the right place and for right job which you deserve and choose right path from visibility of many way of path. best way to show case your talent and expertise and skill, Updates on regular basis and small time of amount required for make a move from old to new job."
         }
     ];
 
