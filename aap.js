@@ -266,10 +266,16 @@ myApp.controller("ProductCtrl", function ($scope) {
             details: "My soft click delves into a wide array of technologies and technology domains with a view to cater to the requirements emerging from every sector of this dynamic IT industry. MSC has nurtured and whetted the skills of its experts to sculpt them into strategic technology consultants who render pivotal advice that goes a long way in turning the tide of business in your favour."
         },
 		{
-            imgUrl: "..//img//product-msc1.jpg",
+            imgUrl: "..//img//product-cv.jpg",
             name: "Resume Blogger * Job Position * Resume-Now",
             description: 'http://soniashu.blogspot.com/p/profile_27.html?view=sidebar',
             details: "We support Blogger for resume with objective, responsibilities and experience that will guide you to write an optimized resume for your job application. it helps to show case your talent in the right place and for right job which you deserve and choose right path from visibility of many way of path. best way to show case your talent and expertise and skill, Updates on regular basis and small time of amount required for make a move from old to new job."
+        },
+		{
+            imgUrl: "..//img//product-painthub.jpg",
+            name: "Habib here, Specialized Painting & Remodeling",
+            description: 'https://painthub.github.io',
+            details: "Hey I am Habib! Specialized Painting & Remodeling is a professional painting. Specialized Painting & Remodeling treats your home or business as if it were our own. We take care of your project with professionalism and attention to detail, and complete it on time and within budget. Exterior Painting , Interior Painting, Paint & Stain Consultation, Small Industrial Painting and Technical Coatings."
         }
     ];
 
