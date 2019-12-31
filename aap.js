@@ -275,8 +275,8 @@ myApp.controller("ProductCtrl", function ($scope) {
 		{
             imgUrl: "..//img//product-painthub.jpg",
             name: "Habib here, Specialized Painting & Remodeling",
-            description: 'https://painthub.github.io',
-            details: "Hey I am Habib! Specialized Painting & Remodeling is a professional painting. Specialized Painting & Remodeling treats your home or business as if it were our own. We take care of your project with professionalism and attention to detail, and complete it on time and within budget. Exterior Painting , Interior Painting, Paint & Stain Consultation, Small Industrial Painting and Technical Coatings."
+            description: 'http://painthub.ml',
+            details: "Hey I am Habib! Specialized Painting & Remodeling is a professional painting. Specialized Painting & Remodeling treats your home or business as if it were our own. We take care of your project with professionalism and attention to detail, and complete it on time and within budget. Exterior Painting , Interior Painting, Paint & Stain Consultation, Small Industrial Painting and Technical Coatings. See https://painthub.github.io"
         }
     ];
 
