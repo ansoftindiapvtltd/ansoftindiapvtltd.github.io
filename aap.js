@@ -264,6 +264,7 @@ myApp.controller("ProductCtrl", function ($scope) {
             name: "mysoftclick is an online learning platform and aimed at professional adults,students take courses largely as a means of improving job-related skills.",
             description: 'http://mysoftclick.ml or https://mysoftclick.github.io/',
             details: "My soft click delves into a wide array of technologies and technology domains with a view to cater to the requirements emerging from every sector of this dynamic IT industry. MSC has nurtured and whetted the skills of its experts to sculpt them into strategic technology consultants who render pivotal advice that goes a long way in turning the tide of business in your favour."
+	    ,link:"http://mysoftclick.ml/"
         },
 		{
             imgUrl: "..//img//product-cv.jpg",
