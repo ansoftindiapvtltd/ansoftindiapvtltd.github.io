@@ -282,11 +282,7 @@ myApp.controller("ProductCtrl", function ($scope) {
 		imgUrl: "..//img//product-bhajan.jpg",
 		name: "Bhajan",
 		description: 'https://jaikrishnabhajan.blogspot.com/',
-		details: " लेखक : माधुरी सोनी
-		सिटी : धमतरी छत्तीसगढ़
-		संपर्क करे  : +91-9098447598
-		व्हाट्सप :- +91-9098447598
-		Link : jaikrishnabhajan.blogspot.com."
+		details: " लेखक : माधुरी सोनी सिटी : धमतरी छत्तीसगढ़ संपर्क करे  : +91-9098447598 व्हाट्सप :- +91-9098447598 Link : jaikrishnabhajan.blogspot.com."
 	}
     ];
 
