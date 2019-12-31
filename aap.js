@@ -277,7 +277,17 @@ myApp.controller("ProductCtrl", function ($scope) {
             name: "Habib here, Specialized Painting & Remodeling",
             description: 'http://painthub.ml',
             details: "Hey I am Habib! Specialized Painting & Remodeling is a professional painting. Specialized Painting & Remodeling treats your home or business as if it were our own. We take care of your project with professionalism and attention to detail, and complete it on time and within budget. Exterior Painting , Interior Painting, Paint & Stain Consultation, Small Industrial Painting and Technical Coatings. See https://painthub.github.io"
-        }
+        },    
+	{
+		imgUrl: "..//img//product-bhajan.jpg",
+		name: "Bhajan",
+		description: 'https://jaikrishnabhajan.blogspot.com/',
+		details: " लेखक : माधुरी सोनी
+		सिटी : धमतरी छत्तीसगढ़
+		संपर्क करे  : +91-9098447598
+		व्हाट्सप :- +91-9098447598
+		Link : jaikrishnabhajan.blogspot.com."
+	}
     ];
 
     $scope.seeMore = function (tec) {
